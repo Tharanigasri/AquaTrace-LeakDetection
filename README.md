@@ -23,10 +23,14 @@ using only monthly water bill data. No smart meters or hardware needed.
 - Maven
 
 ## How to Run
-1. Install JDK 17+ and Maven
+1. Install JDK 21 (Temurin) and IntelliJ IDEA
 2. git clone https://github.com/Tharanigasri/AquaTrace-LeakDetection.git
-3. cd AquaTrace-LeakDetection
-4. mvn javafx:run
+3. Open the folder in IntelliJ and wait for Maven to load
+4. Run the `Launcher` class (com.aquatrace.ui.Launcher)
+   - Or, if Maven is installed: mvn javafx:run
+5. Log in with: demo / aquatrace123
+
+The database (aquatrace.db) is created and filled with demo data automatically on first run.
 
 ## Author
 Tharanigasri
